@@ -1,18 +1,17 @@
 ---
 layout: listing
-title: Magento Extensions
-description: "Magento Extensions"
+title: All Magento 2 Extensions
+description: 
 meta-title: 
-meta-description:
-permalink:  "/magento-extensions/"
-redirect_from:
-  - /categories/extension/
-  - /categories/extensions/
+meta-description: 
+permalink:  "/magento-2-extensions/"
+rating: 95
+review_count: 9
 ---
 
 <div class="row" id="magento-two">
 
-        {% for extension in site.categories.m1e  | sort: 'sort_order' %}
+        {% for extension in site.categories.m2e  | sort: 'sort_order' %}
           
         <div class="col s12 m3">
           <div class="card medium">
@@ -72,29 +71,33 @@ redirect_from:
 
 
 
-<!-- <div class="row">
+<div class="row">
 
 	<ul class="collection with-header">
       <li class="collection-header"><h3>Magento guides</h3></li>
-      {% for post in site.categories.kb limit:20 | sort: 'date'  %}
-      <li class="collection-item avatar">
-      	<i class="material-icons circle green">insert_chart</i>
-      	<span class="title">
-        	<a href="{{ site.url }}{{ post.url }}" >
-  	        {{ post.title }}
-          </a>
-        </span>
+      {% for post in site.categories.kb | sort: 'date'  %}
+        {% if post.tags contains "magento-2-tutorial" %}
 
-        <p>{{ post.excerpt | strip_html }}</p>
+        <li class="collection-item avatar">
+        	<i class="material-icons circle green">insert_chart</i>
+        	<span class="title">
+          	<a href="{{ site.url }}{{ post.url }}" >
+    	        {{ post.title }}
+            </a>
+          </span>
 
-        
-      </li>
+          <p>{{ post.excerpt | strip_html }}</p>
+
+          
+        </li>
+
+        {% endif %}
       {% endfor %}
 
   </ul>
 
 
-</div> -->
+</div>
 
 
 
