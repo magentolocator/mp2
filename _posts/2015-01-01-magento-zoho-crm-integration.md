@@ -48,7 +48,7 @@ review_count: 3
 	<div id="sync-orders" class=" scrollspy">
 		<h3 >Auto-sync Orders into Zoho CRM Sale Orders</h3>
 
-		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-orders.png" alt="magento zoho crm sync orders" class="responsive-img">
+		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/sales-orders.png" alt="magento zoho crm sync orders" class="responsive-img">
 
 	</div>
 
