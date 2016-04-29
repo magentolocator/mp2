@@ -83,14 +83,34 @@ redirect_from:
     <div class="row" id="magento-one">
         {% for extension in site.categories.magento-1 limit:10  | sort: 'sort_order' %}
           
-        <div class="col s6 m3">
-          <div class="card">
+        <div class="col s12 m3">
+          <div class="card small">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="{{ site.url }}{{ extension.image }}">
+              <a href="{{ site.url }}{{ extension.url }}">
+                <img class="activator" src="{{ site.url }}{{ extension.image }}">
+              </a>
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">{{ extension.title }}<i class="material-icons right">more_vert</i></span>
-              <p><a href="{{ site.url }}{{ extension.url }}">This is a link</a></p>
+              <a href="{{ site.url }}{{ extension.url }}">
+              <span class="card-title activator grey-text text-darken-4">
+                {{ extension.title }}
+              </span>
+              <span>
+                <i class="material-icons right">more_vert</i>
+              </span>
+
+              <p>
+                <span>{% if extension.price == 0 %}FREE{% else %} ${{ extension.price }}{% endif %}</span>
+                <span>
+                  <i class="large material-icons">comment</i> 
+                    {% if (extension.review_count == 1) %}
+                      {{ extension.review_count }} review
+                    {% elseif (extension.review_count > 1) %}  
+                     {{ extension.review_count }} reviews
+                    {% endif %}
+                  
+                </span>
+              </p>
             </div>
             
           </div>
