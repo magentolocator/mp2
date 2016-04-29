@@ -7,14 +7,14 @@ email: "support@staging.mageplaza.com"
 url: "http://staging.mageplaza.com"
 baseurl: "http://staging.mageplaza.com"
 domain: "staging.mageplaza.com"
-author: "RewardPoints"
+author: "mageplaza"
 this_year: "2016"
 phone: "+12122459600"
 
 allow_search_engine: false
 
 
-paypal: "support@magerewardpoints.com"
+paypal: "support@mageplaza.com"
 
 google_verify: "mqeRPCxfPDdd8Ai589_r1ylvomMFyjYC0epneqbK74"
 bing_verify: 
@@ -22,7 +22,7 @@ google_analytics:   UA-74427984-10
 
 # Social accounts
 google_plus: 
-disqus_shortname: "magerewardpoints"
+disqus_shortname: "mageplaza"
 
 subcriber_url: "http://t.us3.list-manage1.com/subscribe/post?u=531af730d34352cf489&amp;id=0416bef2d9"
 
