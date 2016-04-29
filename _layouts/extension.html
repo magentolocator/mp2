@@ -9,20 +9,17 @@
 <!-- Navigation -->
 {% include nav.html %}
 
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-        <h1 class="header center">{{ site.slogan }}</h1>
-        <div class="row center">
-            <h4 class="header col s12 light center">{{ site.description }}</h4>
-        </div>
-        <div class="row center">
-            <a href="#live-demo" class="btn-light btn-large waves-effect waves-light modal-trigger">Demo</a>
-            <a href="{{ site.url }}/pricing/" class="btn-light btn-large waves-effect waves-light">Pricing</a>
-        </div>
-    </div>
-</div>
+
 
 <!-- Page breadcrumb -->
+ <nav>
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a href="{{ site.url }}" class="breadcrumb">Home</a>
+        <a href="#!" class="breadcrumb">{{ page.title }}</a>
+      </div>
+    </div>
+  </nav>
 <!-- Page Content -->
   <div class="container">
     <div class="section">
