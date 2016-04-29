@@ -38,13 +38,13 @@
       var footerOffset = $('footer').first().length ? $('footer').first().offset().top : 0;
       var bottomOffset = footerOffset - socialHeight - tocHeight - tocWrapperHeight;
 
-      // if ($('nav').length) {
-      //   $('.toc-wrapper').pushpin({
-      //     top: $('nav').height(),
-      //     bottom: bottomOffset
-      //   });
-      // }
-      // else 
+      if ($('nav').length) {
+        $('.toc-wrapper').pushpin({
+          top: $('nav').height(),
+          bottom: bottomOffset
+        });
+      }
+      else 
       	if ($('#index-banner').length) {
         $('.toc-wrapper').pushpin({
           top: $('#index-banner').height(),
