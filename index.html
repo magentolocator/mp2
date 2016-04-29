@@ -83,8 +83,8 @@ redirect_from:
     <div class="row" id="magento-one">
         {% for extension in site.categories.magento-1 limit:10  | sort: 'sort_order' %}
           
-
-            <div class="card">
+        <div class="col s6 m3">
+          <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="{{ site.url }}{{ extension.image }}">
             </div>
@@ -94,6 +94,7 @@ redirect_from:
             </div>
             
           </div>
+        </div>
 
         {% endfor %}
 
