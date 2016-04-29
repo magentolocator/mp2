@@ -69,7 +69,6 @@ redirect_from:
         {% endfor %}
 
 </div>
-<!-- end litsing -->
 
 
 <div class="row">
