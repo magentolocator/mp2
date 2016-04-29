@@ -104,7 +104,9 @@ redirect_from:
               <p>
                 <span class="left">
                   {% if extension.price == 0 %}FREE{% else %} ${{ extension.price }}{% endif %}
-                  <i class="small material-icons">shopping_cart</i>
+                  <a href="{{ site.url }}{{ extension.purchase_link }}">
+                    <i class="Tiny material-icons">shopping_cart</i>
+                  </a>
                 </span>
 
 

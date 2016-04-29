@@ -26,7 +26,7 @@ download: https://www.magentocommerce.com/magento-connect/adwords-conversion-tra
 price: 0
 rating: 88
 review_count: 1
-
+purchase_link: /magento-adwords-conversion-tracking/purchase
 ---
 
 Adwords Conversion Tracking
