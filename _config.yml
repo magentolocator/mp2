@@ -68,8 +68,6 @@ exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "R
 
 
 collections:
-  magento-extensions:
-    output: true
   pages:
     output: true
 

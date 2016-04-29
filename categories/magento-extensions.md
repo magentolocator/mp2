@@ -2,10 +2,12 @@
 layout: page
 title: All Extensions
 description: "Magento Extensions"
-meta-title: "The Best Magento Extensions"
-meta-description: "Best Magento Extensions"
-sitemap: true
-
+meta-title: 
+meta-description:
+permalink:  "/magento-extensions/"
+redirect_from:
+  - /categories/extension/
+  - /categories/extensions/
 ---
 
 
@@ -71,5 +73,27 @@ sitemap: true
         {% endfor %}
 
     </div>
+    <!-- end litsing -->
+
+
+    <div class="row">
+
+    	<ul class="collection with-header">
+	        <li class="collection-header"><h3>Magento guides</h3></li>
+	        {% for post in site.categories.kb limit:20 %}
+	        <li class="collection-item">
+		        <a href="{{ site.url }}{{ post.url }}" >
+			        {{ post.title }}
+		        </a>
+	        </li>
+	        {% endfor %}
+
+      </ul>
+
+
+    </div>
+
+
+
 
 </div>
