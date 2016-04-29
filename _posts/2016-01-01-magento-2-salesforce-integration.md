@@ -10,7 +10,7 @@ image: "/assets/img/extensions/magento-2-salesforce-integration.png"
 small-image: "/assets/img/extensions/small/magento-2-salesforce-integration.png"
 version: "1.0.0"
 user-version: no
-categories: magento-2 integration salesforce
+categories: m2e integration salesforce
 published: true
 permalink: "/magento-2-salesforce-integration-extension/"
 screenshots:

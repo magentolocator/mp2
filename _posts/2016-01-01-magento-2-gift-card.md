@@ -10,7 +10,7 @@ image: "/assets/img/extensions/magento-2-gift-card.png"
 small-image: "/assets/img/extensions/small/magento-2-gift-card.png"
 version: "1.0.0"
 user-version: no
-categories: magento-2 gift gift-card
+categories: m2e gift gift-card
 permalink: "/magento-2-gift-card-extension/"
 screenshots:
 

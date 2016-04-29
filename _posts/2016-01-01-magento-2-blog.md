@@ -10,7 +10,7 @@ image: "/assets/img/extensions/magento-2-blog-extension.png"
 small-image: "/assets/img/extensions/small/magento-2-blog-extension.png"
 version: "1.0.0"
 user-version: no
-categories: magento-2 blog wordpress joomla
+categories: m2e blog wordpress joomla
 permalink: "/magento-2-blog-extension/"
 screenshots:
   - /assets/img/extensions-images/magento-2-blog/comment.png

@@ -10,7 +10,7 @@ image: "/assets/img/extensions/magento-2-reward-points.png"
 small-image: "/assets/img/extensions/small/magento-2-reward-points.png"
 version: "1.0.0"
 user-version: no
-categories: magento-2 reward-points
+categories: m2e reward-points
 permalink: "/magento-2-reward-points-extension/"
 screenshots:
 
