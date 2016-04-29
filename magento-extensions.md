@@ -10,8 +10,6 @@ redirect_from:
   - /categories/extensions/
 ---
 
-
-<div class="container">
 	 <div class="row" id="magento-two">
 
       <h2 class="col s12 header">Magento extensions</h2>
@@ -103,4 +101,3 @@ redirect_from:
 
 
 
-</div>
