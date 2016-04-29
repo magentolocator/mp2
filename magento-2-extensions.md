@@ -1,6 +1,6 @@
 ---
 layout: listing
-title: All Magento 2 Extensions
+title: Magento 2 Extensions
 description: 
 meta-title: 
 meta-description: 

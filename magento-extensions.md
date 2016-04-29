@@ -5,9 +5,7 @@ description: "Magento Extensions"
 meta-title: 
 meta-description:
 permalink:  "/magento-extensions/"
-redirect_from:
-  - /categories/extension/
-  - /categories/extensions/
+
 ---
 
 <div class="row" id="magento-two">
@@ -71,30 +69,6 @@ redirect_from:
 </div>
 
 
-
-<!-- <div class="row">
-
-	<ul class="collection with-header">
-      <li class="collection-header"><h3>Magento guides</h3></li>
-      {% for post in site.categories.kb limit:20 | sort: 'date'  %}
-      <li class="collection-item avatar">
-      	<i class="material-icons circle green">insert_chart</i>
-      	<span class="title">
-        	<a href="{{ site.url }}{{ post.url }}" >
-  	        {{ post.title }}
-          </a>
-        </span>
-
-        <p>{{ post.excerpt | strip_html }}</p>
-
-        
-      </li>
-      {% endfor %}
-
-  </ul>
-
-
-</div> -->
 
 
 
