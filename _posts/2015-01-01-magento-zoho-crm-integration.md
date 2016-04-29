@@ -38,13 +38,13 @@ review_count: 3
 
 
 
-<div id="sync-contacts" class="section scrollspy">
+<div id="sync-contacts" class=" scrollspy">
 	<h3>Auto-sync customers into Zoho CRM Leads, Accounts, Contacts.</h3>
 	<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-account.jpg" alt="magento zoho crm sync contacts" class="responsive-img">
 
 </div>
 
-<div id="sync-orders" class="section scrollspy">
+<div id="sync-orders" class=" scrollspy">
 	<h3 >Auto-sync Orders into Zoho CRM Sale Orders</h3>
 
 	<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-orders.png" alt="magento zoho crm sync orders" class="responsive-img">
@@ -53,29 +53,29 @@ review_count: 3
 
 
 
-<div id="sync-invoices" class="section scrollspy">
+<div id="sync-invoices" class=" scrollspy">
 	<h3>Auto-sync Invoices into Zoho CRM Invoices</h3>
 	<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-invoice.png" alt="magento zoho crm sync Invoices" class="responsive-img">
 </div>
 
 
-<div id="sync-campaigns" class="section scrollspy">
+<div id="sync-campaigns" class=" scrollspy">
 	<h3>Auto-sync Shopping cart rules into Zoho CRM Campaigns</h3>
 	<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-campaign.png" alt="magento zoho crm sync campaigns" class="responsive-img">
 </div>
 
-<div id="sync-products" class="section scrollspy">
+<div id="sync-products" class=" scrollspy">
 	<h3>Auto-sync Products into Zoho CRM Products</h3>
 	<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-product.jpg" alt="magento zoho crm sync products" class="responsive-img">
 </div>
 
 
-<div id="sync-mapping" class="section scrollspy">
+<div id="sync-mapping" class=" scrollspy">
 	<h3>Mapping fields easily</h3>
 	<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/magento-mapping.png" alt="Mapping fields easily" class="responsive-img">
 </div>
 
-<div id="sync-report" class="section scrollspy">
+<div id="sync-report" class=" scrollspy">
 	<h3>Report of data synchronization</h3>
 	<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/magento-report.png" alt="report" class="responsive-img">
 </div>
