@@ -1,6 +1,6 @@
 ---
 layout: page
-title: All Extensions
+title: Magento Extensions
 description: "Magento Extensions"
 meta-title: 
 meta-description:
@@ -11,8 +11,6 @@ redirect_from:
 ---
 
 <div class="row" id="magento-two">
-
-      <h2 class="col s12 header">Magento extensions</h2>
 
         {% for extension in site.categories.m1e  | sort: 'sort_order' %}
           
@@ -70,33 +68,33 @@ redirect_from:
 
         {% endfor %}
 
-    </div>
-    <!-- end litsing -->
+</div>
+<!-- end litsing -->
 
 
-    <div class="row">
+<div class="row">
 
-    	<ul class="collection with-header">
-	        <li class="collection-header"><h3>Magento guides</h3></li>
-	        {% for post in site.categories.kb limit:20 %}
-	        <li class="collection-item avatar">
-	        	<i class="material-icons circle green">insert_chart</i>
-	        	<span class="title">
-	        	<a href="{{ site.url }}{{ post.url }}" >
-			        {{ post.title }}
-		        </a></span>
+	<ul class="collection with-header">
+      <li class="collection-header"><h3>Magento guides</h3></li>
+      {% for post in site.categories.kb limit:20 %}
+      <li class="collection-item avatar">
+      	<i class="material-icons circle green">insert_chart</i>
+      	<span class="title">
+      	<a href="{{ site.url }}{{ post.url }}" >
+	        {{ post.title }}
+        </a></span>
 
-		        <p>{{ post.excerpt | strip_html }}</p>
+        <p>{{ post.excerpt | strip_html }}</p>
 
-		        <a href="{{ site.url }}{{ post.url }}" class="secondary-content"><i class="material-icons">done</i></a>
-		        
-	        </li>
-	        {% endfor %}
+        <a href="{{ site.url }}{{ post.url }}" class="secondary-content"><i class="material-icons">done</i></a>
+        
+      </li>
+      {% endfor %}
 
-      </ul>
+  </ul>
 
 
-    </div>
+</div>
 
 
 
