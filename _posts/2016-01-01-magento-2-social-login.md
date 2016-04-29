@@ -10,7 +10,7 @@ image: "/assets/img/extensions/magento-2-social-login-extension.png"
 small-image: "/assets/img/extensions/small/magento-2-social-login-extension.png"
 version: "1.0.0"
 user-version: no
-categories: magento social login signup free
+categories: magento-2 social login signup free
 permalink: "/magento-2-social-login-extension/"
 screenshots:
   - "/assets/img/extensions-images/magento-2-social-login/social-login.png"

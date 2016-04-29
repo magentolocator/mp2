@@ -9,7 +9,7 @@ image: "/assets/img/extensions/magento-2-affiliate.png"
 small-image: "/assets/img/extensions/small/magento-2-affiliate.png"
 version: "1.0.0"
 user-version: no
-categories: magento affiliate
+categories: magento-2 affiliate
 permalink: "/magento-2-affiliate-extension/"
 screenshots:
   - "/assets/img/extensions-images/magento-2-affiliate/affiliates.jpg"

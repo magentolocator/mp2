@@ -9,7 +9,7 @@ image: "/assets/img/extensions/magento-2-banner-slider.jpg"
 small-image: "/assets/img/extensions/small/magento-2-banner-slider.jpg"
 version: "1.0.0"
 user-version: no
-categories: magento banner
+categories: magento-2 banner
 permalink: "/magento-2-banner-slider-extension/"
 screenshots:
   - "/assets/img/extensions-images/magento-2-banner-slider/admin.png"

@@ -10,7 +10,7 @@ image: "/assets/img/extensions/m2-google-analytics.png"
 small-image: "/assets/img/extensions/small/m2-google-analytics.png"
 version: 1.0.0
 user-version: no
-categories: magento marketing
+categories: magento-2 marketing
 permalink: "/magento-2-google-analytics-pro/"
 sort_order: 15
 screenshots:
