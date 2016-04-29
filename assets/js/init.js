@@ -34,18 +34,17 @@
     setTimeout(function() {
       var tocWrapperHeight = 500; // Max height of ads.
       var tocHeight = $('.toc-wrapper .table-of-contents').length ? $('.toc-wrapper .table-of-contents').height() : 0;
-      var socialHeight = 95; // Height of unloaded social media in footer.
+      var socialHeight = 200; // Height of unloaded social media in footer.
       var footerOffset = $('footer').first().length ? $('footer').first().offset().top : 0;
       var bottomOffset = footerOffset - socialHeight - tocHeight - tocWrapperHeight;
 
-      // if ($('nav').length) {
-      //   $('.toc-wrapper').pushpin({
-      //     top: $('nav').height(),
-      //     bottom: bottomOffset
-      //   });
-      // }
-      
-      if ($('#index-banner').length) {
+      if ($('nav').length) {
+        $('.toc-wrapper').pushpin({
+          top: $('nav').height(),
+          bottom: bottomOffset
+        });
+      }
+      else if ($('#index-banner').length) {
         $('.toc-wrapper').pushpin({
           top: $('#index-banner').height(),
           bottom: bottomOffset
@@ -62,6 +61,24 @@
 
 
     
+
+
+    // Github Latest Commit
+    if ($('.github-commit').length) { // Checks if widget div exists (Index only)
+      $.ajax({
+        url: "https://api.github.com/repos/dogfalo/materialize/commits/master",
+        dataType: "json",
+        success: function (data) {
+          var sha = data.sha,
+              date = jQuery.timeago(data.commit.author.date);
+          if (window_width < 1120) {
+            sha = sha.substring(0,7);
+          }
+          $('.github-commit').find('.date').html(date);
+          $('.github-commit').find('.sha').html(sha).attr('href', data.html_url);
+        }
+      });
+    }
 
     // Toggle Flow Text
     var toggleFlowTextButton = $('#flow-toggle');
