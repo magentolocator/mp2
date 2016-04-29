@@ -100,8 +100,9 @@ redirect_from:
               </span>
 
               <p>
-                <span>{% if extension.price == 0 %}FREE{% else %} ${{ extension.price }}{% endif %}</span>
-                <span>
+                <span class="left">{% if extension.price == 0 %}FREE{% else %} ${{ extension.price }}{% endif %}</span>
+
+                <span class="right">
                   <i class="small material-icons">comment</i> 
 
                     {% if extension.review_count == 1 %}
