@@ -10,7 +10,7 @@ image: "/assets/img/extensions/html-script.png"
 small-image: "/assets/img/extensions/small/html-script.png"
 version: 1.0.0
 user-version: no
-categories: magento-1 rich-content
+categories: m1e rich-content
 permalink: "/magento-html-script/"
 sort_order: 999
 screenshots:

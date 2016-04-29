@@ -10,7 +10,7 @@ image: "/assets/img/extensions/adwords-conversion-tracking.png"
 small-image: "/assets/img/extensions/small/adwords-conversion-tracking.png"
 version: 1.0.0
 user-version: no
-categories: magento-1 marketing
+categories: m1e marketing
 permalink: "/magento-adwords-conversion-tracking/"
 
 sort_order: 99

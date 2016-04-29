@@ -84,7 +84,7 @@ redirect_from:
 
       <h2 class="col s12 header">Magento 1 extensions</h2>
 
-        {% for extension in site.categories.magento-1 limit:8  | sort: 'sort_order' %}
+        {% for extension in site.categories.m1e limit:8  | sort: 'sort_order' %}
           
         <div class="col s12 m3">
           <div class="card medium">

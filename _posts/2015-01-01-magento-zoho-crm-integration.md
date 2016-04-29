@@ -10,7 +10,7 @@ image: "/assets/img/extensions/magento-zoho-crm-integration-extension.png"
 small-image: "/assets/img/extensions/small/magento-zoho-crm-integration-extension.png"
 version: "1.0.0"
 user-version: no
-categories: magento-1 crm zoho integration
+categories: m1e crm zoho integration
 permalink: "/magento-zoho-crm-integration-extension/"
 screenshots:
   - "/assets/img/extensions-images/magento-zoho-crm/zoho-account.jpg"

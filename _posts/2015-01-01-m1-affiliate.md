@@ -10,7 +10,7 @@ image: "/assets/img/extensions/affiliate.png"
 small-image: "/assets/img/extensions/small/affiliate.png"
 version: 1.0.0
 user-version: no
-categories: magento-1 marketing affiliate
+categories: m1e marketing affiliate
 permalink: "/magento-affiliate-extension/"
 
 sort_order: 15

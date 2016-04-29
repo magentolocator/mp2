@@ -10,7 +10,7 @@ image: "/assets/img/extensions/product-slider.jpg"
 small-image: "/assets/img/extensions/small/product-slider.jpg"
 version: 1.0.0
 user-version: no
-categories: magento-1 rich-content
+categories: m1e rich-content
 permalink: "/magento-product-slider/"
 
 sort_order: 30
