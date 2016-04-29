@@ -105,7 +105,7 @@ redirect_from:
                   <i class="large material-icons">comment</i> 
                     {% if (extension.review_count == 1) %}
                       {{ extension.review_count }} review
-                    {% elseif (extension.review_count > 1) %}  
+                    {% else %}  
                      {{ extension.review_count }} reviews
                     {% endif %}
                   
