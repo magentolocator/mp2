@@ -11,7 +11,7 @@ review_count: 5
 <div class="row" id="magento-two">
 
         {% for extension in site.categories.m2e  | sort: 'sort_order' %}
-          {% if post.price == 0 %}
+          {% if extension.price == 0 %}
 	        <div class="col s12 m3">
 	          <div class="card medium">
 	            <div class="card-image waves-effect waves-block waves-light">
