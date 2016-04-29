@@ -64,7 +64,7 @@ permalink:  "/magento-extensions/"
               </div>
             </div>
 
-        {% endif %}
+          {% endif %}
 
         {% endfor %}
 
