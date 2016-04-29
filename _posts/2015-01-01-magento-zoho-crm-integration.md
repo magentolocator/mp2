@@ -28,47 +28,77 @@ price: 199
 rating: 98
 review_count: 3
 ---
+<div class="col s12 m9 l10">
 
 
-Zoho CRM Integration extension will automatically synchronize all related data from your Magento store to Zoho CRM so that you can better create a smooth flow to maintain customer relationship and organize your business well. Just install our extension, you don’t need to spend any time for manually importing customer’s information or purchase history. All data you need to used for a power marketing tool will be instantly auto-transmitted whenever there is any update.
+	<p>Zoho CRM Integration extension will automatically synchronize all related data from your Magento store to Zoho CRM so that you can better create a smooth flow to maintain customer relationship and organize your business well. Just install our extension, you don’t need to spend any time for manually importing customer’s information or purchase history. All data you need to used for a power marketing tool will be instantly auto-transmitted whenever there is any update.</p>
 
-**Magento Zoho CRM integration** is a powerful tools to sync Magento data such as Customers, Subscribers, Sales, Invoices, Products to Zoho CRM systemas Accounts, Contacts, Leads, Sales Orders, Invoices, Products, Campaigns. It is flexible to choose which data is sync to Zoho CRM in admin configuration.
-
-
-## Full Features of Magento Zoho CRM integration
+	<strong>Magento Zoho CRM integration</strong> is a powerful tools to sync Magento data such as Customers, Subscribers, Sales, Invoices, Products to Zoho CRM systemas Accounts, Contacts, Leads, Sales Orders, Invoices, Products, Campaigns. It is flexible to choose which data is sync to Zoho CRM in admin configuration.
 
 
-<h3 id="sync-contacts" class="section scrollspy">Auto-sync customers into Zoho CRM Leads, Accounts, Contacts.</h3>
-
-![magento zoho crm sync contacts, leads, accounts]({{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-account.jpg)
-
-<h3 id="sync-orders" class="section scrollspy">Auto-sync Orders into Zoho CRM Sale Orders</h3>
-
-![magento zoho crm sync sales order]({{ site.url }}/assets/img/extensions-images/magento-zoho-crm/sales-orders.png)
+	<h2>Full Features of Magento Zoho CRM integration</h2>
 
 
-### Auto-sync Invoices into Zoho CRM Invoices
+	<div id="sync-contacts" class="section scrollspy">
+		<h3 >Auto-sync customers into Zoho CRM Leads, Accounts, Contacts.</h3>
+		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-account.jpg" alt="magento zoho crm sync contacts" class="responsive-img">
+
+	</div>
+
+	<div id="sync-orders" class="section scrollspy">
+		<h3 >Auto-sync Orders into Zoho CRM Sale Orders</h3>
+
+		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-orders.png" alt="magento zoho crm sync orders" class="responsive-img">
+
+	</div>
+
+	
+
+	<div id="sync-invoices" class="section scrollspy">
+		<h3>Auto-sync Invoices into Zoho CRM Invoices</h3>
+		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-invoice.png" alt="magento zoho crm sync Invoices" class="responsive-img">
+	</div>
 
 
-<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-invoice.png" alt="magento zoho crm sync Invoices" class="responsive-img">
+	<div id="sync-campaigns" class="section scrollspy">
+		<h3>Auto-sync Shopping cart rules into Zoho CRM Campaigns</h3>
+		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-campaign.png" alt="magento zoho crm sync campaigns" class="responsive-img">
+	</div>
 
-### Auto-sync Shopping cart rule into Zoho CRM Campaigns
-
-
-<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-campaign.png" alt="magento zoho crm sync campaigns" class="responsive-img">
-
-
-
-### Auto-sync Catalog Products into Zoho CRM Products
-
-![magento zoho crm sync Products]({{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-product.jpg)
+	<div id="sync-products" class="section scrollspy">
+		<h3>Auto-sync Products into Zoho CRM Products</h3>
+		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-product.jpg" alt="magento zoho crm sync products" class="responsive-img">
+	</div>
 
 
-### Mapping fields easily
+	<div id="sync-mapping" class="section scrollspy">
+		<h3>Mapping fields easily</h3>
+		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-mapping.png" alt="Mapping fields easily" class="responsive-img">
+	</div>
 
-<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/magento-mapping.png" alt="magento mapping fields" class="responsive-img">
+	<div id="sync-report" class="section scrollspy">
+		<h3>Report of data synchronization</h3>
+		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-report.png" alt="report" class="responsive-img">
+	</div>
 
-### Report of data synchronization
 
 
-<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/magento-report.png" alt="magento Report of data synchronization" class="responsive-img">
+
+</div>
+
+
+<div class="col hide-on-small-only m3 l2">
+  <div class="toc-wrapper">
+    <div style="height: 1px;">
+      <ul class="section table-of-contents">
+        <li><a href="#sync-contacts">Sync Contacts</a></li>
+        <li><a href="#sync-orders">Sync Orders</a></li>
+        <li><a href="#sync-invoices">Sync Invoices</a></li>
+        <li><a href="#sync-campaigns">Sync Campaigns</a></li>
+        <li><a href="#sync-products">Sync Products</a></li>
+        <li><a href="#sync-mapping">Sync Mapping Fields</a></li>
+        <li><a href="#sync-report">Sync Report data</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
