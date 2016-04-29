@@ -28,19 +28,19 @@ price: 199
 rating: 98
 review_count: 3
 ---
+
+
 <div class="col s12 m9 l10">
 
 
 	<p>Zoho CRM Integration extension will automatically synchronize all related data from your Magento store to Zoho CRM so that you can better create a smooth flow to maintain customer relationship and organize your business well. Just install our extension, you don’t need to spend any time for manually importing customer’s information or purchase history. All data you need to used for a power marketing tool will be instantly auto-transmitted whenever there is any update.</p>
 
-	<strong>Magento Zoho CRM integration</strong> is a powerful tools to sync Magento data such as Customers, Subscribers, Sales, Invoices, Products to Zoho CRM systemas Accounts, Contacts, Leads, Sales Orders, Invoices, Products, Campaigns. It is flexible to choose which data is sync to Zoho CRM in admin configuration.
+	<p><strong>Magento Zoho CRM integration</strong> is a powerful tools to sync Magento data such as Customers, Subscribers, Sales, Invoices, Products to Zoho CRM systemas Accounts, Contacts, Leads, Sales Orders, Invoices, Products, Campaigns. It is flexible to choose which data is sync to Zoho CRM in admin configuration.</p>
 
-
-	<h2>Full Features of Magento Zoho CRM integration</h2>
 
 
 	<div id="sync-contacts" class="section scrollspy">
-		<h3 >Auto-sync customers into Zoho CRM Leads, Accounts, Contacts.</h3>
+		<h3>Auto-sync customers into Zoho CRM Leads, Accounts, Contacts.</h3>
 		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-account.jpg" alt="magento zoho crm sync contacts" class="responsive-img">
 
 	</div>
