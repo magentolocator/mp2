@@ -96,14 +96,13 @@ redirect_from:
                 {{ extension.title }}
               </span>
               <span>
-                <i class="material-icons right">more_vert</i>
+                <!-- <i class="material-icons right">more_vert</i> -->
               </span>
 
               <p>
                 <span class="left">{% if extension.price == 0 %}FREE{% else %} ${{ extension.price }}{% endif %}</span>
 
                 <span class="right">
-                  <i class="small material-icons">comment</i> 
 
                     {% if extension.review_count == 1 %}
                       {{ extension.review_count }} review
