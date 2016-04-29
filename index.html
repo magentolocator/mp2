@@ -95,9 +95,10 @@ redirect_from:
               <span class="card-title activator grey-text text-darken-4">
                 {{ extension.title }}
               </span>
-              <span>
-                <!-- <i class="material-icons right">more_vert</i> -->
-              </span>
+              
+
+              <div class="card-action">
+               
 
               <p>
                 <span class="left">{% if extension.price == 0 %}FREE{% else %} ${{ extension.price }}{% endif %}</span>
@@ -113,7 +114,14 @@ redirect_from:
                     {% endif %}
                   
                 </span>
+
+               <span>
+                <i class="material-icons right">more_vert</i>
+              </span>
+              
               </p>
+              </div>
+
             </div>
             
           </div>
