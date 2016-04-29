@@ -64,8 +64,7 @@ Zoho CRM Integration extension will automatically synchronize all related data f
 
 ### Mapping fields easily
 
-![magento mapping fields]({{ site.url }}/assets/img/extensions-images/magento-zoho-crm/magento-mapping.png)
-
+<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/magento-mapping.png" alt="magento mapping fields" class="responsive-img">
 
 ### Report of data synchronization
 
