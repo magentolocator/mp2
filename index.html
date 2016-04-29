@@ -86,11 +86,11 @@ redirect_from:
 
             <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="images/office.jpg">
+              <img class="activator" src="{{ site.url }}{{ extension.image }}">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">{{ post.title }}<i class="material-icons right">more_vert</i></span>
-              <p><a href="{{ site.url }}{{ post.url }}">This is a link</a></p>
+              <span class="card-title activator grey-text text-darken-4">{{ extension.title }}<i class="material-icons right">more_vert</i></span>
+              <p><a href="{{ site.url }}{{ extension.url }}">This is a link</a></p>
             </div>
             
           </div>
