@@ -69,4 +69,4 @@ Zoho CRM Integration extension will automatically synchronize all related data f
 
 ### Report of data synchronization
 
-![magento Report of data synchronization]({{ site.url }}/assets/img/extensions-images/magento-zoho-crm/magento-report.png)
+![magento Report of data synchronization]({{ site.url }}/assets/img/extensions-images/magento-zoho-crm/magento-report.png){: class=responsive-img }
