@@ -49,12 +49,14 @@ Zoho CRM Integration extension will automatically synchronize all related data f
 
 ### Auto-sync Invoices into Zoho CRM Invoices
 
-![magento zoho crm sync Invoices]({{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-invoice.png)
 
+<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-invoice.png" alt="magento zoho crm sync Invoices" class="responsive-img">
 
 ### Auto-sync Shopping cart rule into Zoho CRM Campaigns
 
-![magento zoho crm sync campaigns]({{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-campaign.png)
+
+<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-campaign.png" alt="magento zoho crm sync campaigns" class="responsive-img">
+
 
 
 ### Auto-sync Catalog Products into Zoho CRM Products
