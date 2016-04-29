@@ -73,12 +73,12 @@ review_count: 3
 
 	<div id="sync-mapping" class="section scrollspy">
 		<h3>Mapping fields easily</h3>
-		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-mapping.png" alt="Mapping fields easily" class="responsive-img">
+		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/magento-mapping.png" alt="Mapping fields easily" class="responsive-img">
 	</div>
 
 	<div id="sync-report" class="section scrollspy">
 		<h3>Report of data synchronization</h3>
-		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-report.png" alt="report" class="responsive-img">
+		<img src="{{ site.url }}/assets/img/extensions-images/magento-zoho-crm/magento-report.png" alt="report" class="responsive-img">
 	</div>
 
 
