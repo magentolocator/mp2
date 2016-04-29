@@ -1,0 +1,65 @@
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+<title>{% if page.meta-title %} {{ page.meta-title }} {% else %} {{ page.title }}  {% endif %} &#8211; {{ site.title }}</title>
+<meta name="description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ page.description }}{% endif %}">
+
+{% if page.meta-keywords %}<meta name="keywords" content="{{ page.meta-keywords }}">{% endif %}
+
+{% if site.google_plus %}
+<!-- Google+ Authorship Information -->
+<link rel="author" href="{{ site.google_plus }}">
+<link rel="publisher" href="{{ site.google_plus }}">
+{% endif %}
+
+<!-- Canonical -->
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.name }}">
+
+{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+{% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+
+{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+<link rel="canonical" href="{{ canonical }}">
+<link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+
+
+{% if site.google_analytics %}
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.google_analytics }}', 'auto');  
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+{% endif %}
+
+{% if site.allow_search_engine == false %}
+<meta name="robots" content="NOINDEX,NOFOLLOW"/>
+{% endif %}
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="cleartype" content="on">
+
+
+<!-- CSS  -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="{{ site.url }}/assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="{{ site.url }}/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+

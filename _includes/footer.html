@@ -1,0 +1,66 @@
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l3 s12">
+          <h5 class="white-text">Company</h5>
+          <ul>
+            <li>
+                <a class="white-text" href="{{ site.url }}/">Home</a>
+            </li>
+            <li><a class="white-text" href="{{ site.url }}/contact.html" >Contact</a></li>
+            <li><a class="white-text" href="{{ site.url }}/privacy.html" title="Privacy">Privacy</a></li>
+            <li><a class="white-text" href="{{ site.url }}/tos.html" title="Terms and Conditions">TOS</a></li>
+          </ul>
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Quick links</h5>
+          <ul>
+            <li><a class="white-text" href="{{ site.url }}/features/" >Features</a></li>
+            <li><a class="white-text" href="{{ site.url }}/pricing/" >Pricing</a></li>
+            <li><a class="white-text" href="{{ site.url }}/faq/" >FAQ</a></li>
+            <li><a class="white-text" href="{{ site.url }}/screenshots/" >Screenshots</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col l3 s12">
+            <ul>
+            <h5 class="white-text"><a class="white-text" href="/categories/blog.html">Links</a></h5>
+            <ul class="list-inline">	
+	<li><a title="magento 2 refer friends, magento 2 affiliate, magento 2 affiliate module" href="https://www.mageplaza.com/magento-2-affiliate-extension/">Magento 2 Affiliate extension</a></li>
+	<li><a title="magento 2 one page checkout, magento 2 one step checkout extension, magento 2 one page checkout extension" href="https://www.magecheckout.com/magento-2-one-step-checkout.html">Magento 2 One Step Checkout</a></li>
+	<li><a title="magento 2 tutorials" href="https://www.mageplaza.com/kb/magento-2-tutorial/">Magento 2 Tutorial</a></li>
+	<li><a title="magento 2 seo module, magento 2 seo, magento 2 seo free" href="https://www.mageplaza.com/magento-2-seo-extension/">Magento 2 SEO Extension</a></li>
+	<li><a title="magento 2 blog module, magento 2 blog free" href="https://www.mageplaza.com/magento-2-blog-extension/">Magento 2 blog extension</a></li>
+	<li><a title="magento extension" href="https://www.mageplaza.com/">Magento extensions</a></li>
+    <li><a title="magento 2 extension" href="https://www.mageplaza.com/magento-2-extensions/">Magento 2 extensions</a></li>
+    <li><a title="magento 2 reward points extension,magento 2 loyalty system,magento 2 loyalty program" href="https://www.mageplaza.com/magento-2-reward-points-extension/">Magento 2 Reward Points</a></li>
+    <li><a title="magento 2 gift card extension,magento 2 gift voucher,magento 2 gift certificate" href="https://www.mageplaza.com/magento-2-gift-card-extension/">Magento 2 Gift Card </a></li>
+    <li><a title="magento 2 social login extension,magento 2 social module,magento 2 social free" href="https://www.mageplaza.com/magento-2-social-login-extension/">Magento 2 Social Login</a></li>
+    <li><a href="https://www.mageplaza.com/magento-zoho-crm-integration-extension/">Magento Zoho CRM Integration</a></li>
+    <li><a title="magento 2 extensions" href="https://www.mageplaza.com/magento-2-extensions/">Magento 2 free extensions</a></li>
+</ul>
+            </ul>
+            <ul>
+                {% for post in site.categories.blog limit:5 %}
+                <li><a class="white-text" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+                
+            </ul>
+        </div>
+
+
+        <div class="col l3 s12">
+           {% include footer_right.html %}
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © Copyright {{ site.time | date:"%Y" }} by {{ site.name }}
+      </div>
+
+    </div>
+</footer>

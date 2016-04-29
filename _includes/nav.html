@@ -1,0 +1,116 @@
+<nav class="light lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="{{ site.url }}" class="brand-logo">{{ site.name }}</a>
+      
+      <ul class="right hide-on-med-and-down">
+        <li><a href="{{ site.url }}/features/">Features</a></li>
+        <li><a href="{{ site.url }}/pricing/">Pricing</a></li>
+        <li><a href="{{ site.url }}/screenshots/">Screenshots</a></li>
+        <li><a href="#live-demo" class="modal-trigger">Demo</a></li>
+        <li><a href="{{ site.url }}/faq/">FAQ</a></li>
+        <li><a href="{{ site.url }}/contact.html">Contact</a></li>
+        <li><a href="https://www.mageplaza.com/magento-2-reward-points-extension/">Reward Points</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="{{ site.url }}/features/">Features</a></li>
+        <li><a href="{{ site.url }}/pricing/">Pricing</a></li>
+        <li><a href="{{ site.url }}/screenshots/">Screenshots</a></li>
+        <li><a href="#live-demo" class="modal-trigger">Demo</a></li>
+        <li><a href="{{ site.url }}/faq/">FAQ</a></li>
+        <li><a href="{{ site.url }}/contact.html">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+
+
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "{{ site.url }}",
+      "logo": "{{ site.url }}/assets/img/logomrp.jpg"
+    }
+</script>
+
+
+<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Organization",
+	  "url" : "{{ site.url }}",
+	  "contactPoint" : [{
+	    "@type" : "ContactPoint",
+	    "telephone" : "+1-202-555-0116",
+	    "contactType" : "Customer service"
+	  }]
+	}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "{{ site.name }}",
+  "url" : "{{ site.url }}",
+  "sameAs" : [
+    "https://www.facebook.com/Magento-2-Reward-Points-1021654011258126/",
+    "https://plus.google.com/u/0/106286908733721179576"
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "{{ site.url }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "WebSite",
+  "name" : "RewardPoints",
+  "alternateName" : "{{ site.name }}",
+  "url" : "{{ site.url }}"
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Restaurant",
+  "@id": "{{ site.phone }}",
+  "name": "{{ site.name }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "148 W 51st St",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10019",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 41.9678965,
+    "longitude": -75.8902705
+  },
+  "url": "{{ site.url }}",
+  "telephone": "{{ site.phone }}"
+  
+}
+</script>
