@@ -34,7 +34,7 @@
     setTimeout(function() {
       var tocWrapperHeight = 300; // Max height of ads.
       var tocHeight = $('.toc-wrapper .table-of-contents').length ? $('.toc-wrapper .table-of-contents').height() : 0;
-      var socialHeight = 200; // Height of unloaded social media in footer.
+      var socialHeight = 100; // Height of unloaded social media in footer.
       var footerOffset = $('footer').first().length ? $('footer').first().offset().top : 0;
       var bottomOffset = footerOffset - socialHeight - tocHeight - tocWrapperHeight;
 
