@@ -38,11 +38,11 @@ Zoho CRM Integration extension will automatically synchronize all related data f
 ## Full Features of Magento Zoho CRM integration
 
 
-<h3 id="sync-contacts">Auto-sync customers into Zoho CRM Leads, Accounts, Contacts.</h3>
+<h3 id="sync-contacts" class="section scrollspy">Auto-sync customers into Zoho CRM Leads, Accounts, Contacts.</h3>
 
 ![magento zoho crm sync contacts, leads, accounts]({{ site.url }}/assets/img/extensions-images/magento-zoho-crm/zoho-account.jpg)
 
-<h3 id="sync-orders">Auto-sync Orders into Zoho CRM Sale Orders</h3>
+<h3 id="sync-orders" class="section scrollspy">Auto-sync Orders into Zoho CRM Sale Orders</h3>
 
 ![magento zoho crm sync sales order]({{ site.url }}/assets/img/extensions-images/magento-zoho-crm/sales-orders.png)
 
