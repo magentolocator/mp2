@@ -9,33 +9,6 @@ redirect_from:
 ---
 
 
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "Product",
-  "image": "{{ site.url }}/assets/img/extensions-images/refer.png",
-  "name": "{{ site.name }}",
-  "review": {
-    "@type": "Review",
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": "5"
-    },
-    "name": "Great Idea and great extension",
-    "author": {
-      "@type": "Person",
-      "name": "Raymond"
-    },
-    "datePublished": "2016-04-04",
-    "reviewBody": "I would say must have extension and recommended for every magento websites.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Raymond"
-    }
-  }
-}
-</script>
-
 
 
 <div class="section no-pad-bot" id="index-banner">
@@ -56,267 +29,77 @@ redirect_from:
 <div class="container">
   <div class="section">
 
-      <div class="row">
-        <p class="caption">Magento 2 Reward Points extension is the right cure for enhancing customer’s interaction with your website by offering precious rewards to them. Customers will get the reward whenever they visit your store if they have any completed purchase or some actions such as signing up a new account, reviewing and voting any product they like, subscribing your newsletter and more. Thus, the traffic to your site drives enormously and simultaneously, the extension aids you to convert your visitors into a loyal and profitable customers in a short period of time, bring to you a lot of potential customers.</p>
-        <p class="caption">Until now, there are so many vendors providing Magento 2 Reward Points extension which is quite similar. This makes consumers confused to choose the best. Let us scroll down to compare objectively about Reward Points extension among the reliable providers on Magento 2 Connect.</p>
 
-      </div>
+      <div class="row">
+          <div class="col s12 m8 offset-m2">
+            <br>
+            <img id="responsive-img" src="images/responsive.png">
+          </div>
+        </div>
+
+
+        <div class="row">
+          <h3 class="col s12 light center header">Materialize simplifies life for developers and the users they serve.</h3>
+        </div>
+
+
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="center promo">
+              <i class="material-icons">flash_on</i>
+              <p class="promo-caption">Speeds up development</p>
+              <p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="center promo">
+              <i class="material-icons">group</i>
+              <p class="promo-caption">User Experience Focused</p>
+              <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="center promo">
+              <i class="material-icons">settings</i>
+              <p class="promo-caption">Easy to work with</p>
+              <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="divider"></div>
+
 
       <div class="row center">
-          <h2 class="light header">Flexible Rules</h2>
-          <p class="col s8 offset-s2 caption">Reward Points program allows customers to earn and spend points based on Catalog Rule and Shopping Cart Rule with you will configure in admin panel </p>
+          <h2 class="light header">Free, open source, and easy to use.</h2>
+          <p class="col s8 offset-s2 caption">Mageplaza is a library of modules for Magento. Our extensions are open source for any use. Download what you like and get started!</p>
       </div>
 
 
 
-      <div class="row">
-        <h3 class="header light">Earning Rule</h3>
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/cats.jpg" alt="earning rules">
-        </div>
-        <div class="col s12 m6">
-          <p class="caption">The earning points can be fixed amount or a percentage of product price when customers meet all conditions of your earning rule such as category, brands, subtotal, shipping method, attributes and so on. For example, you can set the earning rule as following: Get 50 points when paying via bank for Men’s clothes. That feature is very useful to bring numerous sales and profitability for your store.</p>
-        </div>
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
+    <div class="row" id="magento-one">
+        {% for extension in site.categories.magento-1 limit:10  | sort: 'sort_order' %}
+          
+
+            <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/office.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">{{ post.title }}<i class="material-icons right">more_vert</i></span>
+              <p><a href="{{ site.url }}{{ post.url }}">This is a link</a></p>
+            </div>
+            
+          </div>
+
+        {% endfor %}
+
+    </div>
 
 
-      <div class="row">
-        <h3 class="header light">Spending Rule</h3>
-        
-        <div class="col s12 m6">
-          <p class="caption">Regarding the spending rule, store owners as you will still configure it basing on the criteria of catalog rule and shopping cart rule and generate it while the maximum or minimum points the customers pay per orders are often required. Especially, buying products by points, the customers will receive a fixed or percent discount if you want to encourage them to earn and spend more points.</p>
-          <p class="caption">However, it is possible for your customers to refund points within approved maximum redeemable points if they cancel the orders.</p>
-        </div>
-
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/2016-01-20_9-46-35-vert.jpg" alt="spending rule">
-        </div>
-
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-
-      <div class="row center">
-          <h2 class="light header">Reward Customer Behaviors</h2>
-          <p class="col s8 offset-s2 caption">With Magento 2 Reward Points extension, it is so easy for customer to get the fantastic points from multiple actions. This will help attract more and more visitors to your site.</p>
-      </div>
-
-      <div class="row">
-        <h3 class="header light">Sign up a new account</h3>
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/new-account.png" alt="new account">
-        </div>
-        <div class="col s12 m6">
-          <p class="caption">Starting up with registration instead of checking out as anonymous, the clients will take corresponding points into their pocket effortlessly. This is the primary step to establish customers loyalty and new repeat purchases as well as make seller and buyer better due to the gift.</p>
-        </div>
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Purchase order</h3>
-        
-        <div class="col s12 m6">
-          <p class="caption">Reward Points extension allows your clients to obtain points soon after any transaction is done. However, they must get all needed conditions related to shopping cart and catalog you set up in the earning rule.</p>
-          <p class="caption">The rule is founded on subtotal, quantity items in cart, billing, shipping address, categories, SKU,... and each rule will be assigned to specific customer groups as well as stores. One group/ store is applied one or more earning rules which are active depending on their priority. Especially, you should offer the expiration of reward points in order to promote the users to spend more.</p>
-        </div>
-
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/purchase.png" alt="purchase">
-        </div>
-
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Subscribe newsletter</h3>
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/Subscribe-newsletter.png" alt="newsletter">
-        </div>
-        <div class="col s12 m6">
-          <p class="caption">Newsletter subscription is the perfect method to inform your promo as well as improve the relationship between seller and buyer. So why don’t increase the number of subscribers by rewarding points? By this way, you are building the steady basis for the loyalty system in the feature.</p>
-        </div>
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h2 class="header light">Refer friends</h2>
-        
-        <div class="col s12 m6">
-          <p class="caption">Communicate with many new customers effortlessly through existing customers by Magento 2 Loyalty program. The old clients will be received a gift when clicking on quick social network buttons to share products, purchases publicly with friends. Or they build-in an invitation email and send to friends’ email. This might be the great way to expand the awareness of your brand on the marketplace with low cost.
-        </p>
-        <p class="caption">Besides, the customers will copy referral codes and send to their friends via other media. This is a good solution to get customers' friends, even friends' friends involved in purchasing.</p>
-        </div>
-
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/refer.png" alt="refer">
-        </div>
-
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Review and vote for a product</h3>
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/review.png" alt="Review and vote for a product">
-        </div>
-        <div class="col s12 m6">
-          <p class="caption">Improve SEO for store owners by focusing on product’s review and rating because the previous client’s appreciation is always the most reliable proof. Applying Reward Points system, customers can be rewarded automatically whenever they write a product review or only receive points until the review is approved by you. This means you get the full control of reward settings on product reviews.</p>
-        </div>
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Reach a milestone</h3>
-        
-        <div class="col s12 m6">
-          <p class="caption">Milestone plugin is the advanced module allowing you to create many lifetime events such as number of orders, number of referrals, or length of membership. Once the milestone is reached, there are two actions the customers have chance to pick up. You can offer a fixed amount points or move them into higher group with a lot of superior benefits. For instance, transfer from Silver Group to Gold Group or Gold to Platinum. The Milestone add-on is a great way to create a Tiered Loyalty Program.</p>
-        </div>
-
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/milestone.png" alt="milestone">
-        </div>
-
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Reward for Special Events</h3>
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/event.png" alt="event">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/event-2.png" alt="events">
-        </div>
-        <div class="col s12 m6">
-          <p class="caption">Furthermore, it is possible to set a rule which will automatically send points to targeted customers as you wish in special events such as Noel, New Year or any occasions. The Event plugin allows selecting any group available in the System, configuring your own desired one with many conditions, importing Customer list from a CSV file.
-          </p>
-          <p class="caption">
-            There is a particular example about setting the event rule with the following conditions.
-            Especially, the event rule is applied again and again when you set effective time for it. Let take the annual repeat for Christmas in December 20th to 31th.
-          </p>
-        </div>
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Reward for Loyal Levels (A part of Milestone)</h3>
-        
-        <div class="col s12 m6">
-          <p class="caption">With Loyal Level plugin, you can build and manage unlimited member levels/ customer groups with a variety of fantastic benefits. Customers will be motivated to earn and collect points in their balances depending the necessary conditions you require, and then exchange a certain number of points to join in these groups.</p>
-          <p class="caption">With the greater customer group, customer can receive more discounts on their purchases, higher earning rate and lower spending rate. That will make the clients more and more interesting in shopping at your store.</p>
-        </div>
-
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/loyalty.png" alt="loyalty level">
-        </div>
-
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Reward Coupon</h3>
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/coupon.png" alt="reward coupon">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/coupon2.png" alt="coupon">
-        </div>
-        <div class="col s12 m6">
-          <p class="caption">Reward Points module allows generating manually Reward Coupon in mass. Multiple coupon codes, issued randomly from the backend, are similar to gifts or special offers. They should be redeemed for points to get the discount for any purchase.</p>
-          <p class="caption">For more interesting, the Reward Coupon is also designed by many eye-catching templates. You will provide it for customers or share their friends.</p>
-        </div>
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Transfer points</h3>
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/transfer.png" alt="transfer">
-        </div>
-        <div class="col s12 m6">
-          <p class="caption">The transferring function is enabled for admin and customers. Admin has rights to create point transfers right on the backend while the customers can also transfer points to friends via email in the account page. All received and given points are both managed in Transfer page such as a number of points, sender, recipient, time and status clearly.</p>
-        </div>
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Refund by points</h3>
-        
-        <div class="col s12 m6">
-          <p class="caption">Similarly to cash, the buyer completely gets points back in case of refunding orders which use points as a payment method. Thus, your customers are confident in your service to carry out their purchases without afraidness of losing money.</p>
-        </div>
-
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/refund.png" alt="refund">
-        </div>
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Email Notification</h3>
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/2016-01-21_9-43-24.png" alt="email notification">
-        </div>
-        <div class="col s12 m6">
-          <p class="caption">With Magento 2 Reward Points program, your customers can earn and spend reward points easily and whenever there is a change of the points balance, they will be noticed by email. This helps their tracking more effectively as well as avoid a risk of losing points. On the other hands, the email notification may be sent automatically if the value of reward points are expired.</p>
-        </div>
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Advanced Report</h3>
-        
-        <div class="col s12 m6">
-          <p class="caption">Due to Report plugin, all of the loyalty program data will be briefly reported on an advanced chart. Allow the merchants to hit an overall and in-depth data through Spending/Earning Ratio, Earnings Distribution, A loyal customer cost and Total Points, since then evaluate the effectiveness of loyalty program objectively.</p>
-        </div>
-
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/report.png" alt="report">
-        </div>
-
-      </div>
-      <!-- end session -->
-      <div class="divider"></div>
-
-      <div class="row">
-        <h3 class="header light">Import & Export</h3>
-        <div class="col s12 m6">
-          <img class="responsive-img" src="{{ site.url }}/assets/img/extensions-images/ie.png" alt="import">
-        </div>
-        <div class="col s12 m6">
-          <p class="caption">Import & Export Plugin allows you to immediately import customers’ point transactions in CSV file format directly from the previous Reward Points software to the current Reward Points system. One-click importer supports ST Rewards, MS Reward Points, AW Reward Points, MW Reward Points and so on.</p>
-        </div>
-      </div>
-      <!-- end session -->
-
-
-      <div class="row">
-        <p></p>
-      </div>
-
-      <div class="row center">
-        <a href="{{ site.url }}/faq/" class="btn-light btn-large waves-effect waves-light">FAQ</a>
-        <a href="{{ site.url }}/pricing/" class="btn-light btn-large waves-effect waves-light">Pricing</a>
-      </div>
-
-
-
-      <div class="row"><p></p></div>
-      <div class="row">
-          <h4>Update about {{ site.name }}</h4>
-          {% include home_dynamic_content.feed.inc %}
-      </div>
 
 
 

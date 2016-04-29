@@ -1,8 +1,8 @@
 # Site Settings
-name: "Magento 2 Reward Points"
-title: "Magento 2 Reward Points"
-slogan: "The most powerful Reward System"
-description: "Build any kind of loyalty programs"
+name: "Mageplaza"
+title: "Mageplaza"
+slogan: "Magento® extension store"
+description: "Build it your way"
 email: "support@staging.mageplaza.com"
 url: "http://staging.mageplaza.com"
 baseurl: "http://staging.mageplaza.com"

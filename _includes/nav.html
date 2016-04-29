@@ -2,22 +2,15 @@
     <div class="nav-wrapper container"><a id="logo-container" href="{{ site.url }}" class="brand-logo">{{ site.name }}</a>
       
       <ul class="right hide-on-med-and-down">
-        <li><a href="{{ site.url }}/features/">Features</a></li>
-        <li><a href="{{ site.url }}/pricing/">Pricing</a></li>
-        <li><a href="{{ site.url }}/screenshots/">Screenshots</a></li>
-        <li><a href="#live-demo" class="modal-trigger">Demo</a></li>
-        <li><a href="{{ site.url }}/faq/">FAQ</a></li>
-        <li><a href="{{ site.url }}/contact.html">Contact</a></li>
-        <li><a href="https://www.mageplaza.com/magento-2-reward-points-extension/">Reward Points</a></li>
+        <li><a href="{{ site.url }}/magento-extensions/">Magento® Extensions</a></li>
+        <li><a href="{{ site.url }}/magento-2-extensions/">Magento® 2</a></li>
+        <li><a href="{{ site.url }}/magento-2-free-extensions/" title="Magento 2 Free Extensions">Free Extensions</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="{{ site.url }}/features/">Features</a></li>
-        <li><a href="{{ site.url }}/pricing/">Pricing</a></li>
-        <li><a href="{{ site.url }}/screenshots/">Screenshots</a></li>
-        <li><a href="#live-demo" class="modal-trigger">Demo</a></li>
-        <li><a href="{{ site.url }}/faq/">FAQ</a></li>
-        <li><a href="{{ site.url }}/contact.html">Contact</a></li>
+        <li><a href="{{ site.url }}/magento-extensions/">Magento® Extensions</a></li>
+        <li><a href="{{ site.url }}/magento-2-extensions/">Magento® 2</a></li>
+        <li><a href="{{ site.url }}/magento-2-free-extensions/" title="Magento 2 Free Extensions">Free Extensions</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -30,25 +23,22 @@
       "@context": "http://schema.org",
       "@type": "Organization",
       "url": "{{ site.url }}",
-      "logo": "{{ site.url }}/assets/img/logomrp.jpg"
+      "logo": "{{ site.url }}/assets/img/logo.jpg"
     }
 </script>
 
-
 <script type="application/ld+json">
-	{
-	  "@context" : "http://schema.org",
-	  "@type" : "Organization",
-	  "url" : "{{ site.url }}",
-	  "contactPoint" : [{
-	    "@type" : "ContactPoint",
-	    "telephone" : "+1-202-555-0116",
-	    "contactType" : "Customer service"
-	  }]
-	}
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Organization",
+      "url" : "{{ site.url }}",
+      "contactPoint" : [{
+        "@type" : "ContactPoint",
+        "telephone" : "{{ site.phone }}",
+        "contactType" : "Customer service"
+      }]
+    }
 </script>
-
-
 
 <script type="application/ld+json">
 {
@@ -57,12 +47,10 @@
   "name" : "{{ site.name }}",
   "url" : "{{ site.url }}",
   "sameAs" : [
-    "https://www.facebook.com/Magento-2-Reward-Points-1021654011258126/",
-    "https://plus.google.com/u/0/106286908733721179576"
+    "https://www.facebook.com/mageplaza/",
   ]
 }
 </script>
-
 
 <script type="application/ld+json">
 {
@@ -77,18 +65,15 @@
 }
 </script>
 
-
-
 <script type="application/ld+json">
 {
   "@context" : "http://schema.org",
   "@type" : "WebSite",
-  "name" : "RewardPoints",
+  "name" : "Mageplaza",
   "alternateName" : "{{ site.name }}",
   "url" : "{{ site.url }}"
 }
 </script>
-
 
 <script type="application/ld+json">
 {
@@ -98,19 +83,38 @@
   "name": "{{ site.name }}",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "148 W 51st St",
-    "addressLocality": "New York",
-    "addressRegion": "NY",
-    "postalCode": "10019",
+    "streetAddress": "2835 Barnes Street",
+    "addressLocality": "Florida",
+    "addressRegion": "FL",
+    "postalCode": "32805",
     "addressCountry": "US"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 41.9678965,
-    "longitude": -75.8902705
+    "latitude": 37.0625,
+    "longitude": -95.677068
   },
   "url": "{{ site.url }}",
   "telephone": "{{ site.phone }}"
-  
 }
 </script>
+
+
+{% if(page.rating) %}
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Thing",
+      "name": "{{ page.title }}",
+      "description": "{{ page.description }}",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "{{ page.rating }}",
+        "bestRating": "100",
+        "ratingCount": "{{ page.review_count }}"
+      }
+    }
+    </script>
+{% endif %}
+    
