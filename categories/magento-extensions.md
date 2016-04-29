@@ -81,10 +81,17 @@ redirect_from:
     	<ul class="collection with-header">
 	        <li class="collection-header"><h3>Magento guides</h3></li>
 	        {% for post in site.categories.kb limit:20 %}
-	        <li class="collection-item">
-		        <a href="{{ site.url }}{{ post.url }}" >
+	        <li class="collection-item avatar">
+	        	<i class="material-icons circle green">insert_chart</i>
+	        	<span class="title">
+	        	<a href="{{ site.url }}{{ post.url }}" >
 			        {{ post.title }}
-		        </a>
+		        </a></span>
+
+		        <p>{{ post.excerpt | strip_html }}</p>
+
+		        <a href="{{ site.url }}{{ post.url }}" class="secondary-content"><i class="material-icons">done</i></a>
+		        
 	        </li>
 	        {% endfor %}
 
