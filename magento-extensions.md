@@ -76,7 +76,7 @@ redirect_from:
 
 	<ul class="collection with-header">
       <li class="collection-header"><h3>Magento guides</h3></li>
-      {% for post in site.categories.kb limit:20 %}
+      {% for post in site.categories.kb limit:20 | sort: 'date'  %}
       <li class="collection-item avatar">
       	<i class="material-icons circle green">insert_chart</i>
       	<span class="title">
