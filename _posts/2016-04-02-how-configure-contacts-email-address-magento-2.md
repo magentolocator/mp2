@@ -3,8 +3,8 @@ layout: kb
 title: How to configure Contacts form and contact email address in Magento 2
 permalink: /kb/how-configure-contacts-email-address-magento-2.html
 published: true
-categories: magento-2 magento-2-tutorial
-tags: magento-2 how-to configure email contacts
+categories: kb
+tags: magento-2 magento-2-tutorial how-to configure email contacts
 ---
 
 The Contact Us link in the footer of the store is an easy way for customers to keep in touch with

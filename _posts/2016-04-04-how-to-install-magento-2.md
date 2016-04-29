@@ -3,8 +3,8 @@ layout: kb
 title: How to install Magento 2 step by step
 permalink: /kb/how-to-install-magento-2.html
 published: true
-categories: magento-2 magento-2-tutorial
-tags: magento-2 how-to install
+categories: kb
+tags: magento-2 magento-2-tutorial how-to install
 ---
 
 

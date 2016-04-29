@@ -3,8 +3,8 @@ layout: kb
 title: How to change welcome message in Magento 2
 permalink: /kb/how-change-welcome-message-magento-2.html
 published: true
-categories: magento-2 magento-2-tutorial
-tags: magento-2 how-to welcome message
+categories: kb
+tags: magento-2 magento-2-tutorial how-to welcome message
 ---
 
 

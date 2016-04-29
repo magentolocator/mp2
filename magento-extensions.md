@@ -71,6 +71,7 @@ redirect_from:
 </div>
 
 
+
 <div class="row">
 
 	<ul class="collection with-header">
@@ -79,13 +80,13 @@ redirect_from:
       <li class="collection-item avatar">
       	<i class="material-icons circle green">insert_chart</i>
       	<span class="title">
-      	<a href="{{ site.url }}{{ post.url }}" >
-	        {{ post.title }}
-        </a></span>
+        	<a href="{{ site.url }}{{ post.url }}" >
+  	        {{ post.title }}
+          </a>
+        </span>
 
         <p>{{ post.excerpt | strip_html }}</p>
 
-        <a href="{{ site.url }}{{ post.url }}" class="secondary-content"><i class="material-icons">done</i></a>
         
       </li>
       {% endfor %}
