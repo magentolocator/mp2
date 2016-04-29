@@ -87,18 +87,3 @@ review_count: 3
 </div>
 
 
-<div class="col hide-on-small-only m3 l2">
-  <div class="toc-wrapper">
-    <div style="height: 1px;">
-      <ul class="section table-of-contents">
-        <li><a href="#sync-contacts">Sync Contacts</a></li>
-        <li><a href="#sync-orders">Sync Orders</a></li>
-        <li><a href="#sync-invoices">Sync Invoices</a></li>
-        <li><a href="#sync-campaigns">Sync Campaigns</a></li>
-        <li><a href="#sync-products">Sync Products</a></li>
-        <li><a href="#sync-mapping">Sync Mapping Fields</a></li>
-        <li><a href="#sync-report">Sync Report data</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
