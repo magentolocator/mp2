@@ -32,7 +32,7 @@
 
     // Floating-Fixed table of contents
     setTimeout(function() {
-      var tocWrapperHeight = 500; // Max height of ads.
+      var tocWrapperHeight = 300; // Max height of ads.
       var tocHeight = $('.toc-wrapper .table-of-contents').length ? $('.toc-wrapper .table-of-contents').height() : 0;
       var socialHeight = 200; // Height of unloaded social media in footer.
       var footerOffset = $('footer').first().length ? $('footer').first().offset().top : 0;
