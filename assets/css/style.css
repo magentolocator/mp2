@@ -7,3 +7,7 @@ h1{font-size: 3rem;}
 h2{font-size: 2rem;}
 h3{font-size: 1.6rem;}
 h4,h5,h6{font-size: 1.3rem;}
+.card-content ul{
+    list-style-type: square;
+    margin: 0px 1em 0 1em;
+}
