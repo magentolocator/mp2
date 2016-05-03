@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: extension
 magento: one
 title: "Magento Zoho CRM integration"
 description: "Magento Zoho CRM Integration is the perfect solution for synchronizing and transmitting all data from Magento store to Zoho CRM system"
