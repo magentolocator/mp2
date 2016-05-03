@@ -13,4 +13,5 @@ h4,h5,h6{font-size: 1.3rem;}
 }
 .card-content ul li{
 	list-style-type: square;
+	margin: 0px 1em 0 1em;
 }
