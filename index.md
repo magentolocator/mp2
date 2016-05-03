@@ -39,7 +39,7 @@ redirect_from:
         <div class="row">
           <div class="col s12 m4">
             <div class="center promo">
-              <i class="material-icons">flash_on</i>
+              <i class="material-icons">system_update_alt</i>
               <p class="promo-caption">Free Updates</p>
               <p class="light center"></p>
             </div>
@@ -47,7 +47,7 @@ redirect_from:
 
           <div class="col s12 m4">
             <div class="center promo">
-              <i class="material-icons">group</i>
+              <i class="material-icons">thumb_up</i>
               <p class="promo-caption">Free Support For Life</p>
               <p class="light center"></p>
             </div>
@@ -55,7 +55,7 @@ redirect_from:
 
           <div class="col s12 m4">
             <div class="center promo">
-              <i class="material-icons">settings</i>
+              <i class="material-icons">replay_30</i>
               <p class="promo-caption">Risk-free 30-day Money Back</p>
               <p class="light center"></p>
             </div>
