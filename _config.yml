@@ -2,8 +2,8 @@
 name: "Mageplaza"
 title: "Mageplaza"
 slogan: "Magento® extension store"
-description: "Build it your way"
-email: "support@staging.mageplaza.com"
+description: "A Better Magento Extension"
+email: "support@mageplaza.com"
 url: "http://staging.mageplaza.com"
 baseurl: "http://staging.mageplaza.com"
 domain: "staging.mageplaza.com"
@@ -18,7 +18,7 @@ paypal: "support@mageplaza.com"
 
 google_verify: "mqeRPCxfPDdd8Ai589_r1ylvomMFyjYC0epneqbK74"
 bing_verify: 
-google_analytics:   UA-74427984-10
+google_analytics: "UA-74427984-10"
 
 # Social accounts
 google_plus: 
