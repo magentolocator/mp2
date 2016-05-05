@@ -10,7 +10,7 @@ image: "/assets/img/extensions/magento-2-blog-extension.png"
 small-image: "/assets/img/extensions/small/magento-2-blog-extension.png"
 version: "1.0.0"
 user-version: no
-categories: m2e blog wordpress joomla
+categories: m2e
 topic: start
 permalink: "/magento-2-blog-extension/"
 screenshots:
