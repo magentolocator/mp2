@@ -19,3 +19,15 @@ h4,h5,h6{font-size: 1.3rem;}
 .footer.page-footer{
 	background: #ccc;
 }
+
+@media (min-width: 771px){
+	#breadcrumb-wrapper {
+	    padding-left: 100px;
+	}	
+}
+
+@media (min-width: 1351px){
+	#breadcrumb-wrapper {
+	    padding-left: 100px;
+	}	
+}
