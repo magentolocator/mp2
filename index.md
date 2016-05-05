@@ -13,7 +13,7 @@ redirect_from:
 
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-        <h1 class="header center">{{ site.name }}</h1>
+        <h1 class="header center">Welcome to {{ site.name }}</h1>
         <div class="row center">
             <h4 class="header col s12 light center">{{ site.description }}</h4>
         </div>
