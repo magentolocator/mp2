@@ -17,10 +17,10 @@ redirect_from:
         <div class="row center">
             <h4 class="header col s12 light center">{{ site.description }}</h4>
         </div>
-        <!-- <div class="row center">
-            <a href="#live-demo" class="btn-light btn-large waves-effect waves-light modal-trigger">Demo</a>
-            <a href="{{ site.url }}/pricing/" class="btn-light btn-large waves-effect waves-light">Pricing</a>
-        </div> -->
+        <div class="row center">
+            <a href="{{ site.url }}/magento-2-extensions/" class="btn-light btn-large waves-effect waves-light">Magento 2</a>
+            <a href="{{ site.url }}/magento-extensions/" class="btn-light btn-large waves-effect waves-light">Magento 1</a>
+        </div>
     </div>
 </div>
 
