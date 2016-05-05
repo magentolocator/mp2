@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Knowledge base
+title: Knowledge Base
 description: 
 permalink: /kb/
 
