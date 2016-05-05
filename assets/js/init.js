@@ -134,6 +134,8 @@
     $('.datepicker').pickadate({selectYears: 20});
     $('select').not('.disabled').material_select();
 
+    //Add responsive image class to all images in #page-content div
+    $( "#page-content img" ).addClass( "responsive-img" );
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
