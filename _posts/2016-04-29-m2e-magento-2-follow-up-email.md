@@ -1,5 +1,5 @@
 ---
-layout: review
+layout: m2e
 title: "Magento 2 Follow Up Email"
 description: "Magento 2 Follow up email is one of the most powerful tools that increase conversion rate and drive more sales into your store"
 meta-title: "Magento 2 Follow Up Email Extension"
@@ -8,7 +8,8 @@ meta-keywords: "magento 2 follow up email, magento 2 follow up email extension, 
 image: "/assets/img/extensions/magento-2-social-login-extension.png"
 version: "1.0.0"
 user-version: no
-categories: magento-2 followup email marketing
+categories: m2e
+tags: marketing email
 permalink: "/magento-2-follow-up-email-extension/"
 screenshots:
 
