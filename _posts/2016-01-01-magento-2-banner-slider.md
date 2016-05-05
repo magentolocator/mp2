@@ -10,6 +10,7 @@ small-image: "/assets/img/extensions/small/magento-2-banner-slider.jpg"
 version: "1.0.0"
 user-version: no
 categories: m2e banner
+topic: marketing
 permalink: "/magento-2-banner-slider-extension/"
 screenshots:
   - "/assets/img/extensions-images/magento-2-banner-slider/admin.png"

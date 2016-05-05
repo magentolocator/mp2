@@ -11,6 +11,7 @@ small-image: "/assets/img/extensions/small/magento-2-seo-extension.png"
 version: "1.0.0"
 user-version: no
 categories: m2e seo
+topic: start
 permalink: "/magento-2-seo-extension/"
 screenshots:
   - "/assets/img/extensions-images/magento-2-seo/magento-setup-seo.jpg"

@@ -13,6 +13,7 @@ user-version: no
 categories: m2e marketing
 permalink: "/magento-2-google-analytics-pro/"
 sort_order: 15
+topic: start
 screenshots:
   - /assets/img/extensions-images/m2-google-analytics/right-now.png
   - /assets/img/extensions-images/m2-google-analytics/config.png

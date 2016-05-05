@@ -12,6 +12,7 @@ version: "1.0.0"
 user-version: no
 categories: m2e integration salesforce
 published: true
+topic: erp
 permalink: "/magento-2-salesforce-integration-extension/"
 screenshots:
   - "/assets/img/extensions-images/magento-2-salesfoce-integration/customer-infomation-salesforce.png"

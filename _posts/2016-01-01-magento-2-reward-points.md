@@ -11,6 +11,7 @@ small-image: "/assets/img/extensions/small/magento-2-reward-points.png"
 version: "1.0.0"
 user-version: no
 categories: m2e reward-points
+topic: marketing
 permalink: "/magento-2-reward-points-extension/"
 screenshots:
 

@@ -10,6 +10,7 @@ small-image: "/assets/img/extensions/small/magento-2-affiliate.png"
 version: "1.0.0"
 user-version: no
 categories: m2e affiliate
+topic: marketing
 permalink: "/magento-2-affiliate-extension/"
 screenshots:
   - "/assets/img/extensions-images/magento-2-affiliate/affiliates.jpg"
