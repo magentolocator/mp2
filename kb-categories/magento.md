@@ -12,7 +12,7 @@ permalink: /kb/magento/
 <div class="row">
 
 	<ul class="collection with-header">
-      <li class="collection-header"><h1>{{ page.title }}</h1></li>
+      <li class="collection-header"><p>{{ page.description }}</p></li>
       {% for post in site.categories.kb | sort: 'date'  %}
         {% if post.tags contains "magento" %}
 
