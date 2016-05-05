@@ -47,6 +47,15 @@
 	            <div class="card-action">
 	              <p>{% include social-buttons.html %}</p>
 
+
+	              
+
+	              <p>
+	              	{% for tag in page.tags %}
+						<div class="chip">{{ tag }}</div>
+					{% endfor %}
+	              </p>
+
 	            </div>
 	          </div>
 	        </div>
