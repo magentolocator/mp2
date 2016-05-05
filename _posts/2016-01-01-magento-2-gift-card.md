@@ -1,5 +1,5 @@
 ---
-layout: extension
+layout: m2e
 magento: two
 title: "Magento 2 Gift Card, voucher, Certificates"
 description: "Magento 2 Gift Card Extension is the fantastic present customers possibly give to friends via either email or post office on exact date and time. Let's explore it!"

@@ -1,5 +1,5 @@
 ---
-layout: extension
+layout: m2e
 magento: two
 title: "Magento 2 Salesforce Integration"
 description: "Magento 2 Salesforce Integration extension is the perfect suite that automatically synchronize and update all customers, sales, products, shopping cart rules from Magento 2 store to Salesforce system."

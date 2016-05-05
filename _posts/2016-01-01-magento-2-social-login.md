@@ -1,5 +1,5 @@
 ---
-layout: extension
+layout: m2e
 magento: two
 title: "Magento 2 Social Login"
 description: "Magento 2 Social Login extension is designed for quick login to your Magento 2 store without procesing complex register steps"

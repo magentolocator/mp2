@@ -1,5 +1,5 @@
 ---
-layout: extension
+layout: m1e
 magento: one
 title: Adwords Conversion Tracking
 description: "Adwords Conversion Tracking allow adding Conversion tracking code to Magento store in few clicks"

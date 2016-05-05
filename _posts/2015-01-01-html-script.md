@@ -1,5 +1,5 @@
 ---
-layout: extension
+layout: m1e
 magento: one
 title: Html Script
 description: "Allow admin add Zopim, Live chat, Google Analytics, Adwords, GTM without changing code."

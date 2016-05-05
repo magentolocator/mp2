@@ -1,5 +1,5 @@
 ---
-layout: extension
+layout: m2e
 magento: two
 title: "Magento 2 Reward Points Extension"
 description: "Magento 2 Reward Points Extension is a powerful loyalty program to enhance the customer experience on your store by earning and spending unlimited reward points."

@@ -1,5 +1,5 @@
 ---
-layout: extension
+layout: m2e
 magento: two
 title: "Magento 2 SEO Extension"
 description: "Magento 2 SEO extension is a bundle of outstanding features that are auto-active when you install it from Mageplaza without any code modifications"

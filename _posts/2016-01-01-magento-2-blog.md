@@ -1,5 +1,5 @@
 ---
-layout: extension
+layout: m2e
 magento: two
 title: "Magento 2 Blog"
 description: "Magento 2 Blog extension is a better blog for your e-commerce store without adding 3rd-party framework such as Wordpress"

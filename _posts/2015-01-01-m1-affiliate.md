@@ -1,5 +1,5 @@
 ---
-layout: extension
+layout: m1e
 magento: one
 title: Affiliate
 description: "Affiliate program is one of the most effective marketing solution for selling online. Creating affiliate program on your website, it helps you to boost traffic, leads, sales or higher SEO rankings"

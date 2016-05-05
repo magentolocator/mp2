@@ -1,5 +1,5 @@
 ---
-layout: extension
+layout: m1e
 magento: one
 title: Product Slider
 description: Product Sliders allow you create multiple product sliders from different sources and display on what you want to.
