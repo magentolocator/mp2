@@ -75,7 +75,7 @@
 		{% if (page.topic) %}
 		<div class="row">
 			<ul class="collection with-header">
-		    	<li class="collection-header"><a href="{{ site.url }}/blog/{{ page.topic }}">{{ page.topic-label }}</a></li>
+		    	<li class="collection-header"><h3><a href="{{ site.url }}/blog/{{ page.topic }}">{{ page.topic-label }}</a></h3></li>
 
 		      {% for post in site.categories.blog | sort: 'date'  %}
 		      	{% if(page.topic == post.topic)  %}

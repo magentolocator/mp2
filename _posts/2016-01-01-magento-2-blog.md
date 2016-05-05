@@ -12,6 +12,7 @@ version: "1.0.0"
 user-version: no
 categories: m2e
 topic: start
+topic-lable: "Magento 2 Starting kit"
 permalink: "/magento-2-blog-extension/"
 screenshots:
   - /assets/img/extensions-images/magento-2-blog/comment.png
