@@ -13,7 +13,10 @@ permalink: /kb/magento-2-frontend/
 <div class="row">
 
 	<ul class="collection with-header">
-      <li class="collection-header"><p>{{ page.description }}</p></li>
+      {% if(page.description) %}
+        <li class="collection-header"><p>{{ page.description }}</p></li>
+      {% endif %}
+
       {% for post in site.categories.kb | sort: 'date'  %}
         {% if post.tags contains "magento-2-frontend" %}
 
